@@ -7,5 +7,6 @@
 </div>
 <img [src]="img" alt=""> 
 <!-- [] значит что html взаимодействует с typescript. Данное действие называется биндинг. "img" это та самая переменная которая передаёт картинку  -->
-<input type="text" (input)="onInput($event)" >
+
 <p><strong>{{inputValue}}</strong></p>
+<button (click)="onClick()">Click me!</button>

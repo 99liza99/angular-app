@@ -13,8 +13,8 @@ export class AppComponent {
   img = '../assets/angular.png';
   inputValue = '';
 
-  onInput(event) {
-    console.log('Event',event); 
-    // onInput это метод
+  onClick() {
+   console.log('Click!')
   }
 }
+
